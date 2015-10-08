@@ -1,23 +1,18 @@
 var announcement = $(".announcement");
 
-
-$(document).ready(function(){
-    announcement.each(function(){
-        var xButton = $("<button class='xButton'>X</button>");
-        $(this).prepend(xButton);
-    })
-    xbutton()
-
+announcement.each(function(){
+    var xButton = $("<button class='xButton'>X</button>");
+    $(this).prepend(xButton);
 })
 
-function xbutton(){
-    $(".xButton").click(function(){
+$(".xButton").click(function(){
+    if ($(this).text()=== "X"){
+        console.log($(this).text("X"))
         $(this).nextAll().hide()
         $(this).text("Click to show content")
-        $(this).click(function(){
+    }
+    else{
         $(this).nextAll().show()
         $(this).text("X")
-        xbutton()
-    })
-    })
 }
+})
