@@ -1,1 +1,17 @@
-/* Write your code here */
+.announcement{
+    border-style: solid;
+    border-width: thin;
+    padding: 1em;
+    background-color: darkorchid;
+}
+
+.xButton{
+    border-style: solid;
+    border-width: thin;
+    background-color: gray;
+    border-color: black;
+    float: right;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
