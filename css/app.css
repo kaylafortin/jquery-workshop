@@ -1,1 +1,22 @@
-/* Write your code here */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+}
+img{
+    width: 100%;
+}
+
+.overlay{
+    width: 90%;
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+    height: 90%;
+    z-index: 5;
+}
