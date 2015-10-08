@@ -7,6 +7,7 @@
 * Start with the basic skeleton provided to you, which consists of an `index.html` file and a `javascript` directory with `app.js`,
 as well as a `css` directory with `app.css`.
 * Add any new HTML to `index.html`, any new styles to `app.css` and any JavaScript/jQuery code to `app.js`.
+* **NOTE**: Even though there's a CSS file in there, nothing prevents you from using SASS if you wish :)
 
 ## Exercise 1: hiding/showing announcements
 * Add the following code to your HTML file:
