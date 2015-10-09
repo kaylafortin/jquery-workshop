@@ -5,7 +5,7 @@ announcement.each(function(){
     $(this).prepend(xButton);
 })
 
-$(".xButton").click(function(){
+$(".xButton").on('click', function(){
     if ($(this).text()=== "X"){
         console.log($(this).text("X"))
         $(this).nextAll().hide()
