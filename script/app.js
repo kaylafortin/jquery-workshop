@@ -7,7 +7,7 @@ $("img").click(function(){
   var image = "<img src='" + src + "'>"
   var overlay = $('<div class="overlay"></div>');
   var imageBox= $('<div class="image"></div>');
-  var alt = ($(this).attr("alt"));
+  var alt = img.attr("alt");
   var text = ('<figcaption>' + alt + '</figcaption>');
   $(closeButton).appendTo(imageBox);
   $(image).appendTo(imageBox);
