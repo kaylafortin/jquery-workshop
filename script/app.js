@@ -1,7 +1,8 @@
 
 
 $("img").click(function(){
-  var src = ($(this).attr("src"))
+  var img = $(this);
+  var src = img.attr("src")
   var closeButton = $("<button class='xButton'>X</button>");
   var image = "<img src='" + src + "'>"
   var overlay = $('<div class="overlay"></div>');
@@ -13,7 +14,7 @@ $("img").click(function(){
   $(text).appendTo(imageBox);
   $(imageBox).appendTo(overlay);
   $(overlay).appendTo(document.body);
-  $(".xButton").click(function(){
+  $(closeButton).click(function(){
     $(overlay).remove();
 })
 })
